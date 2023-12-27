@@ -1,0 +1,42 @@
+/* `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+}
+
+/* `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+}
+
+/* `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  #hero {
+    background: none;
+  }
+  #successful-project .projects {
+    padding: 2.5rem 2rem;
+  }
+}
+
+/* `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  #personal-care .care-right {
+    margin-top: 4rem;
+  }
+  #personal-care .care-middle {
+    margin-top: 2.5rem;
+  }
+  #successful-project .projects .icon-box {
+    padding-top: 2rem;
+  }
+  #appoinment-form .appoinment-form-left .emergency {
+    font-size: 3rem;
+    background-color: brown;
+  }
+}
+
+/* `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  #appoinment-form .appoinment-form-left .emergency {
+    font-size: 2.5rem;
+    background-color: brown;
+  }
+}
